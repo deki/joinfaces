@@ -42,6 +42,7 @@
         <module>jsf-bootsfaces-spring-boot-starter</module>
         <module>jsf-butterfaces-spring-boot-starter</module>
         <module>jsf-richfaces-spring-boot-starter</module>
+        <module>jsf-tobago-spring-boot-starter</module>
         <module>jsf-myfaces-spring-boot-starter</module>
         <module>jsf-myfaces-bootsfaces-spring-boot-starter</module>
         <module>jsf-myfaces-butterfaces-spring-boot-starter</module>

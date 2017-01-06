@@ -208,7 +208,7 @@
     <name>JSF Spring Boot Build</name>
     <description>Spring Boot Starters to build MVC web applications using 
         JSF, PrimeFaces, Primefaces Extensions, BootsFaces, ButterFaces, OmniFaces
-        , AngularFaces, Mojarra and MyFaces</description>
+        , AngularFaces, Tobago, Mojarra and MyFaces</description>
     <url>http://joinfaces.org</url>
     <inceptionYear>2016</inceptionYear>
 

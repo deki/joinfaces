@@ -36,7 +36,9 @@
         <butterfaces.version>2.1.19</butterfaces.version>
 
         <richfaces.version>4.5.17.Final</richfaces.version>
-                                                                        
+
+        <tobago.version>3.1.0-SNAPSHOT</tobago.version>
+
         <cdi.version>1.2</cdi.version>
         <reflections.version>0.9.10</reflections.version>
         
@@ -226,6 +228,11 @@
                 <artifactId>components</artifactId>
                 <version>${butterfaces.version}</version>
             </dependency>
+            <dependency>
+                <groupId>org.apache.myfaces.tobago</groupId>
+                <artifactId>tobago-theme-standard</artifactId>
+                <version>${tobago.version}</version>
+            </dependency>
             
             <dependency>
                 <groupId>org.joinfaces</groupId>
@@ -312,6 +319,11 @@
                 <groupId>org.joinfaces</groupId>
                 <artifactId>jsf-jetty-myfaces-butterfaces-spring-boot-starter</artifactId>
                 <version>2.3.7-SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>org.joinfaces</groupId>
+                <artifactId>jsf-tobago-spring-boot-starter</artifactId>
+                <version>2.3.6-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>org.joinfaces</groupId>

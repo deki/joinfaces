@@ -34,16 +34,16 @@ import org.springframework.test.context.junit4.SpringRunner;
 public class RichfacesServletContextInitializerIT {
 
 	@Autowired
-	private RichfacesProperties bootsfacesProperties;
+	private RichfacesProperties richfacesProperties;
 
 	@Test
 	public void testOnStartup() throws ServletException {
-		RichfacesServletContextInitializer bootsfacesServletContextInitializer
-			= new RichfacesServletContextInitializer(this.bootsfacesProperties);
+		RichfacesServletContextInitializer richfacesServletContextInitializer
+			= new RichfacesServletContextInitializer(this.richfacesProperties);
 
 		ServletContext servletContext = new MockServletContext();
 
-		bootsfacesServletContextInitializer.onStartup(servletContext);
+		richfacesServletContextInitializer.onStartup(servletContext);
 
 		assertThat(servletContext.getInitParameter("org.richfaces.skin"))
 			.isEqualTo("This is a skin");

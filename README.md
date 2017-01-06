@@ -9,7 +9,7 @@ JoinFaces
 
 This project enables [JSF](http://www.oracle.com/technetwork/java/javaee/javaserverfaces-139869.html) usage inside JAR packaged [Spring Boot](http://projects.spring.io/spring-boot/) Application. 
 
-It autoconfigures [PrimeFaces](http://primefaces.org/), [PrimeFaces Extensions](http://primefaces-extensions.github.io/), [BootsFaces](http://bootsfaces.net/), [ButterFaces](http://butterfaces.org/), [RichFaces](https://github.com/richfaces/richfaces), [OmniFaces](http://omnifaces.org/), [AngularFaces](http://angularfaces.net/), [Mojarra](https://javaserverfaces.java.net/) and [MyFaces](http://myfaces.apache.org/) libraries to run at embedded [Tomcat](http://tomcat.apache.org/), [Jetty](http://www.eclipse.org/jetty) or [Undertow](http://undertow.io) servlet containers.
+It autoconfigures [PrimeFaces](http://primefaces.org/), [PrimeFaces Extensions](http://primefaces-extensions.github.io/), [BootsFaces](http://bootsfaces.net/), [ButterFaces](http://butterfaces.org/), [RichFaces](https://github.com/richfaces/richfaces), [OmniFaces](http://omnifaces.org/), [AngularFaces](http://angularfaces.net/), [Tobago](http://myfaces.apache.org/tobago/), [Mojarra](https://javaserverfaces.java.net/) and [MyFaces](http://myfaces.apache.org/) libraries to run at embedded [Tomcat](http://tomcat.apache.org/), [Jetty](http://www.eclipse.org/jetty) or [Undertow](http://undertow.io) servlet containers.
 
 It also aims to solve [JSF](http://www.oracle.com/technetwork/java/javaee/javaserverfaces-139869.html) and [Spring Boot](http://projects.spring.io/spring-boot/) integration features. Current version includes [JSF](http://www.oracle.com/technetwork/java/javaee/javaserverfaces-139869.html) and [CDI](http://www.cdi-spec.org/) annotations support and [Spring Security](http://projects.spring.io/spring-security/) JSF Facelet Tag support.
 
@@ -22,9 +22,9 @@ You can find more examples [here.](https://github.com/joinfaces/joinfaces/wiki/S
 
 ## Key Features
 
-### Twenty four JSF Spring Boot Starters available
+### Thirty JSF Spring Boot Starters available
 
-There are twenty four JSF Spring Boot Starters available. Each starter autoconfigures one Servlet Container, one JSF Implementation and compatible JSF Libraries. 
+There are thirty JSF Spring Boot Starters available. Each starter autoconfigures one Servlet Container, one JSF Implementation and compatible JSF Libraries. 
 
 See detailed starters [here](https://github.com/joinfaces/joinfaces/wiki/JSF-Spring-Boot-Starters).
 
@@ -92,7 +92,7 @@ Additional information in [#29](https://github.com/joinfaces/joinfaces/issues/29
 
 By default, JSF Spring Boot Starter requires [Java 7](http://java.com) and [Spring Boot 1.5.2](http://projects.spring.io/spring-boot/) or above. 
 
-Additionnal information [here.](https://github.com/joinfaces/joinfaces/wiki/System-Requirements)
+Additional information [here.](https://github.com/joinfaces/joinfaces/wiki/System-Requirements)
 
 ## Getting Help
 
